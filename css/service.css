@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5,div,p,body,a,ol,ul,li,span,table,tr,td{margin: 0;padding: 0;font-family: 微软雅黑;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: black;}
+.center{
+    width: 72%;
+    height: 600px;
+    margin-left: 14%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,260px);
+    grid-template-rows: repeat(3,150px);
+    grid-gap: 30px 10px;
+    /* justify-content: space-between; */
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 140px;
+    border-radius: 10px 10px;
+    border: 1px solid #cccccc;
+    transition: all 100ms;
+    justify-content: space-around;
+}
+.left:hover{
+    transform: scale(1.2,1.2);
+}
+.left img{
+    width: 95px;
+    height: 90px;
+}
+.left span{
+    display:grid;
+    grid-template-columns: 130px;
+    grid-template-rows: 50px 30px;
+}
+.left span p:nth-child(1){
+    font-size: 30px;
+    color: #999999;
+}

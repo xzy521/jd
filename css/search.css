@@ -1,0 +1,232 @@
+h1,h2,h3,h4,h5,div,p,body,a,ol,ul,li,span,table,tr,td{margin: 0;padding: 0;font-family: 微软雅黑;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: black;}
+.conter{
+    width: 84%;
+    height: 1900px;
+    margin-left: 8%;
+}
+.up{
+    width: 100%;
+    height: 210px;
+    display: grid;
+    grid-template-rows: 20px 40px 40px 40px 40px;
+    grid-template-columns: 150px 1110px;
+}
+#a{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 14px;
+    text-indent: 0;
+    /* width: 300px; */
+    height: 21.26px;
+    background-color: #ffffff;
+    padding: 0;
+}
+.up li{
+    font-size: 16px;
+    text-indent: 20px;
+    align-self: center;
+    background-color: #F3F3F3;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 150px;
+    height: 33px;
+    padding-top: 5px;
+}
+.up p{
+    border-bottom: 1px solid #ccc;
+}
+.topone{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: 30px;
+    font-size: 12px;
+    align-items: center;
+}
+.topone a{
+    color: #206EAC;
+    justify-self: center;
+}
+.toptow{
+    display: grid;
+    grid-template-columns: repeat(11,80px);
+    grid-template-rows: 30px;
+    font-size: 12px;
+    align-items: center;
+}
+.toptow a{
+    color: #206EAC;
+    justify-self: center;
+}
+.topsa{
+    display: grid;
+    grid-template-columns: repeat(11,60px);
+    grid-template-rows: 30px;
+    font-size: 12px;
+    align-items: center;
+}
+.topsa a{
+    color: #206EAC;
+    justify-self: center;
+}
+.topsi{
+    display: grid;
+    grid-template-columns: repeat(11,65px);
+    grid-template-rows: 30px;
+    font-size: 12px;
+    align-items: center;
+}
+.topsi a{
+    color: #206EAC;
+    justify-self: center;
+}
+.bottom{
+    width: 100%;
+    height: 1565px;
+    margin-top: -17px;
+    display: flex;
+}
+.bleft{
+    width: 15%;
+    height: 1500px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.bleft  span{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.bleft span p:nth-child(1){
+    color:#B1191A;
+    font-size: 20px;
+}
+.bleft span p:nth-child(2){
+    color:#ccc;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+.bbom{
+    width: 90%;
+    height: 1450px;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6,1fr);
+    grid-row-gap: 5px;
+}
+.bbom li img{
+    width: 171px;
+    height: 140px;
+}
+.moy{
+    color:#A94442;
+}
+.yi{
+    font-size: 13px;
+    margin-top: 3px;
+}
+.yi a{
+    color:#0E63A5;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    height: 1500px;
+    margin-left: 30px;
+}
+.right li{
+    width: 100%;
+    height: 40px;
+    background-color: #F1F1F1;
+}
+.right li a{
+    width: 80px;
+    height: 25px;
+    background-color: #ffffff;
+    position: relative;
+    left: 74px;
+    top: 10px;
+    margin-left: 10px;
+}
+.right li a:hover{
+    background-color: red;
+    color: #ffffff;
+}
+.rightco{
+    width: 95%;
+    height: 1408px;
+    margin-top: 30px ;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 15px 20px;
+}
+.rightco a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.rightco a:hover{
+    border: 1px solid #CCC;
+    box-shadow:2px 3px 2px #ccc;
+}
+.rightcoa{
+    font-size: 22px;
+    color:#A94442;
+}
+.er{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.erbottom b{
+    color:#015AA0;
+}
+.erbottom{
+    font-size: 14px;
+    margin-top: 5px;
+    color:#26A599;
+}
+.bottomb{
+    font-size: 14px;
+    color: #E4393C;
+    margin-top: 3px;
+}
+.btmo{
+    width:410px;
+    height: 40px;
+    display: flex;
+    border-radius: 5px 5px;
+    border: 1px solid #CCC;
+    position: relative;
+    left: 677px;
+    top: 7px;
+}
+.btmo a{
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    border-right: 1px solid #CCC;
+}
+.btmo a:nth-child(10){
+    border: 0;
+}
+.btmo a:hover{
+    background-color: #CCC;
+}
+.btmo a:nth-child(2){
+    background-color: #337AB7;
+    color: #ffffff;
+}

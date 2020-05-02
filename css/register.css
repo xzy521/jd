@@ -1,0 +1,75 @@
+h1,h2,h3,h4,h5,div,p,body,a,ol,ul,li,span,table,tr,td{margin: 0;padding: 0;font-family: 微软雅黑;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: black;}
+body{
+    background-color:#EEEEEE;
+}
+.big{
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+.head{
+    width: 100%;
+    height: 60px;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+}
+.conter{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20px 40px 20px 40px 20px;
+    grid-row-gap: 5px;
+}
+input{border: 0;
+    border-bottom: 1px solid #E7E7E7;
+    color: #cccccc;
+    background-size: 19px;
+    text-indent: 28px;
+    background-repeat: no-repeat;
+}
+.conter p{
+    font-size: 14px;
+}
+.p{
+    background-image: url(../img/denglu.png);
+    background-position-y: 10px;
+}
+.g{background-image: url(../img/mm.png);
+    background-position-y: 5px;}
+.z{
+    justify-self: flex-end;
+}
+.enter{
+    display: block;
+    width: 80%;
+    height: 27px;
+    margin-left: 10%;
+    border-radius: 10px 10px;
+    background:linear-gradient(90deg,#0CD1E0,#5294E9,#9559F2,#C232F7,#F605FE);
+    text-align: center;
+    padding-top: 3px;
+    color: #fff;
+}
+a img{
+    width: 40px;
+    height: 40px;
+}
+.big ul{
+    width: 60%;
+    height: 100px;
+    margin-left: 20%;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ul a{
+    margin-top: 20px;
+}

@@ -1,0 +1,103 @@
+h1,h2,h3,h4,h5,div,p,body,a,ol,ul,li,span,table,tr,td{margin: 0;padding: 0;font-family: 微软雅黑;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: black;}
+.conter{
+    width: 100%;
+    height: 400px;
+    display: flex
+}
+ul{
+    width: 32%;
+    height: 400px;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 150px 200px 130px;
+    grid-template-rows: repeat(6,50px);
+    grid-row-gap: 10px;
+    border-right: 1px solid #CCC;
+}
+.a{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: flex-end;
+    font-size: 18px;
+}
+ul li{
+    align-self: center;
+    justify-self: flex-end;
+}
+input{
+    height: 30px;
+    align-self: center;
+    border: 1px solid #CCC;
+}
+.dian{
+    width: 125px;
+    background-color:#CCCCCC;
+    height: 27px;
+    align-self: center;
+    color: #ffffff;
+    justify-self: center;
+    padding-top: 3px;
+}
+.bi{
+    align-self: center;
+    width: 60px;
+    height: 20px;
+}
+.zz{
+    width: 10px;
+    height: 30px;
+    align-self: center;
+}
+.but{
+    width: 15px;
+    height: 15px;
+    justify-self: flex-end;
+    align-self: flex-start;
+}
+span{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    align-self: flex-start;
+    font-size: 14px;
+}
+span a{
+    color: #6FA1CC;
+}
+.switch{
+    width: 170px;
+    height: 29px;
+    background-color:#B1191A;
+    text-align: center;
+    padding-top: 6px;
+    color: #FCF5F5;
+    position: relative;
+    left: 159px;
+    top: -22px;
+}
+.right{
+    width: 300px;
+    height: 100px;
+    margin-top: 154px;
+    margin-left: 384px;
+    display: grid;
+    grid-template-columns: 160px 140px;
+    grid-template-rows: 80px;
+}
+.right p{
+    width: 140px;
+    height: 20px;
+    align-self: center;
+    justify-self: flex-end;
+}
+.right a{
+    width: 100px;
+    height: 32px;
+    background-color:#B1191A;
+    color:#FCF5F5;
+    align-self: center;
+    text-align: center;
+    padding-top: 8px;
+}

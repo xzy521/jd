@@ -1,0 +1,120 @@
+h1,h2,h3,h4,h5,div,p,body,a,ol,ul,li,span,table,tr,td{margin: 0;padding: 0;font-family: 微软雅黑;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: black;}
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+.overall ul{
+    width: 100%;
+    height: 30px;
+    background-color:#E3E4E5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.overall ul li:nth-child(1){
+    color: red;
+}
+.overall ul li:nth-child(1) span{color: #999999; font-size: 12px;}
+.overall ul li:nth-child(3){
+    width: 600px;
+    display: flex;
+    align-items:center;
+    position: relative;
+    left: 40px;
+}
+.overall ul li:nth-child(3) a{
+    color:#A9A9AA;
+    font-size: 13px;
+    width: 67px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.overall ul li:nth-child(3) a:hover{
+    color: red;
+}
+.overall ul li:nth-child(3) span{
+    color: #CCCCCC;
+}
+.overall ul li:nth-child(2){
+    color: #999999;
+    font-size: 13px;
+    position: relative;
+    left: 268px;
+}
+.overall ul li:nth-child(2) a{
+    color:#9A9A9A;
+    font-weight: 600;
+}
+.overall ul li:nth-child(2) a:hover{color: red;}
+.overall ul li:nth-child(2) a:nth-child(2){position: relative;left: 5px;}
+input{
+    height:35px;
+    width: 355px;
+    border-radius: 5px 5px;
+    border: 1px solid #CCCCCC;
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.centre p a{
+    font-size: 14px;
+    color:#BBBBBB;
+}
+.centre span {
+    width: 427px;
+    color: #ffffff;
+    display: flex;
+}
+span b{position: relative; left: 20px;top: 3px;}
+.centre span a{
+    height: 33px;
+    width: 60px;
+    background-color: #B91313;
+    border-radius: 5px;
+    position: relative;
+    bottom: -1px;
+    left: 1px;
+    color: #ffffff;
+}
+.centre span a:hover{
+    background-color: red;
+}
+.bottom{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #B1191A;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 8%;
+    box-sizing: border-box;
+}
+.bottom a:nth-child(1){
+    width: 110px;
+    height: 35px;
+    background-color: #B1191A;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #fff;
+}
+.bottom a:nth-child(6){
+    position: relative;
+    left: 17px;
+}
+.bottom a{
+    width: 65px;
+    height: 35px;
+    padding-top: 15px;
+    margin-left: 10px;
+    padding-left: 5px;
+    color: #D54E58;
+    font-size: 15px;
+    font-weight: 550;
+}

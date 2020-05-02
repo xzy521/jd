@@ -1,0 +1,27 @@
+h1,h2,h3,h4,h5,div,p,body,a,ol,ul,li,span,table,tr,td{margin: 0;padding: 0;font-family: 微软雅黑;}
+ul,ol{list-style: none;}
+a{text-decoration: none;color: black;}
+ul{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 40px 280px 80px;
+    margin-left: 39%;
+    align-items: center;
+}
+li{
+    justify-self: center;
+    font-size: 20px;
+}
+img{
+    justify-self: center;
+}
+a{
+    width: 100px;
+    height: 32px;
+    background-color:#D9534F;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 3px 3px;
+    color:#FDF7F7;
+    justify-self: center;
+}
